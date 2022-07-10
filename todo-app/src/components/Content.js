@@ -1,8 +1,9 @@
 import React from 'react'
-import ContentFooter from '../ContentFooter'
+import ContentFooter from './ContentFooter'
 import ToDoList from './ToDoList'
 
 function Content() {
+
   return (
     <>
         <section className="main">
