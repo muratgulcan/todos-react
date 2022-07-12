@@ -68,6 +68,6 @@ app.delete('/todos/:id', (req, res) => {
   res.send(todos);
 });
 
-const PORT = 5001;
+const PORT = 3003;
 
 app.listen(PORT, console.log(`Server running on port ${PORT}`.green.bold));
